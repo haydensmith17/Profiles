@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colorButtons button {
+    width: 250px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    border-top-left-radius: 250px; /* Quarter-oval shape */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: rgb(29, 126, 72);
+}
+
+.red {
+    background-color: rgb(187, 29, 29);
+    transform: scaleX(-1);
+}
+
+.yellow {
+    background-color: rgb(219, 207, 35);
+    transform: scaleY(-1);
+}
+
+.blue {
+    background-color: rgb(33, 75, 190);
+    transform: rotate(180deg)
+}
+.green:hover {
+    background-color: rgb(77, 185, 126);
+}
+
+.red:hover {
+    background-color: rgb(226, 72, 72);
+}
+
+.yellow:hover {
+    background-color: rgb(252, 240, 77);
+}
+
+.blue:hover {
+    background-color: rgb(69, 118, 255);
+}

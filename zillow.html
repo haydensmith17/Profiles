@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zillow.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7c549a9d6f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-links">
+            <p>Buy</p>
+            <p>Rent</p>
+            <p>Sell</p>
+            <p>Home Loans</p>
+            <p>Agent finder</p>
+        </div>
+        <div class="logo">
+            <img src="https://s.zillowstatic.com/pfs/static/z-logo-default-visual-refresh.svg" type="image/svg+xml"
+                alt="Zillow logo" focusable="false" height="25" width="120" class="pfs__j60ma-1 hiOroW" loading="eager"
+                decoding="auto">
+        </div>
+        <div class="right-links">
+            <p>Manage Rentals</p>
+            <p>Advertise</p>
+            <p>Help</p>
+            <p>Sign In</p>
+        </div>
+    </div>
+    <div class="search-area">
+        <div class="text">
+            <h1 class="better">Agents. Tours.</h1>
+            <h1 class="crap">Loans. Homes.</h1>
+            <div class="input-with-icon">
+                <input type="text" name="search" placeholder="Enter an address, neighborhood, city, or ZIP code">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+    <div class="thtext">
+        <h3 class="thtexttop">Trending Homes in Provo, UT</h3>
+        <p class="txtextbottom">Viewed and saved the most in the area over the past 24 hours</p>
+    </div>
+    <div class="trending-homes">
+        <div class="card">
+            <img src="https://photos.zillowstatic.com/fp/a0e5b39deb6d62388922f62275b47daf-p_d.jpg" alt="">
+            <div class="card-body">
+                <h3 class="betterer">$525,000</h3>
+                <p class="betterer"><strong>2</strong> bds | <strong>2</strong> ba | <strong>1,363</strong> sqft |
+                    Active</p>
+                <h5 class="betterer">4352 N Canyon Rd, Provo, UT, 84604</h5>
+                <p class="betterer font">MLS ID #12401738, CHRISTIES INTERNATIONAL RE PC, Ty McGuire</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://photos.zillowstatic.com/fp/a9e92cf9997d9cc7bcb89de36b7c2ebe-p_d.jpg" alt="">
+            <div class="card-body">
+                <h3 class="betterer">$415,000</h3>
+                <p class="betterer"><strong>3</strong> bds | <strong>1</strong> ba | <strong>1,283</strong> sqft | House
+                    for sale</p>
+                <h5 class="betterer">614 N 1100 E, Provo, UT 84606</h5>
+                <p class="betterer font">SELLING UTAH REAL ESTATE</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://photos.zillowstatic.com/fp/ba7c74a37a820932e50e2f9f4cc04de6-p_d.jpg" alt="">
+            <div class="card-body">
+                <h3 class="betterer">$199,900</h3>
+                <p class="betterer"><strong>2</strong> bds | <strong>2</strong> ba | <strong>976</strong> sqft |
+                    Townhouse for sale</p>
+                <h5 class="betterer">1471 W Arthur Dr, Provo, UT 84601</h5>
+                <p class="betterer font">SUMMIT REALTY, INC.</p>
+            </div>
+        </div>
+    </div>
+    <div class="down-arrow">
+        
+        <p class="more-homes" onclick="handleButtonClick()"><i class="fa-solid fa-arrow-down"></i><strong>More recommended homes</strong></p>
+        <script>
+            function handleButtonClick() {
+                alert('Button-like text clicked!');
+                // Add your JavaScript logic here
+            }
+        </script>
+    </div>
+    <div class="big-card-backgorund-color">
+        <div class="big-cards">
+            <div class="big-image">
+                <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2024/04/homepage-spot-financing-lg-1.webp"
+                    alt="" style="height: 150px;">
+                <h3>Finance a home</h3>
+                <p style="text-align: center;">Zillow Home Loans can get you pre-approved so you’re ready to make an
+                    offer quickly when you find the
+                    right home.</p>
+                <button class="big-button">Start now</button>
+            </div>
+        </div>
+        <div class="big-cards">
+            <div class="big-image">
+                <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2024/04/homepage-spot-sell-lg-1.webp"
+                    alt="" style="height: 150px;">
+                <h3>Sell a home</h3>
+                <p style="text-align: center;">No matter what path you take to sell your home, we can help you navigate
+                    a successful sale.</p>
+                <button class="big-button">See your options</button>
+            </div>
+        </div>
+        <div class="big-cards">
+            <div class="big-image">
+                <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2024/04/homepage-spot-rent-lg-1.webp"
+                    alt="" style="height: 150px;">
+                <h3>Finance a home</h3>
+                <p style="text-align: center;">We’re creating a seamless online experience – from shopping on the
+                    largest rental network, to applying, to paying rent.</p>
+                <button class="big-button">Find rentals</button>
+            </div>
+        </div>
+    </div>
+    <div class="thtext">
+        <h3 class="thtexttop">Homes For You in Provo, UT</h3>
+        <p class="txtextbottom">Based on homes you recently viewed</p>
+    </div>
+    <div class="trending-homes">
+        <div class="card">
+            <img src="https://photos.zillowstatic.com/fp/401ea39d13e3121cb0807206cec1a52e-p_d.jpg" alt="">
+            <div class="card-body">
+                <h3 class="betterer">$635,000</h3>
+                <p class="betterer"><strong>5</strong> bds | <strong>3</strong> ba | <strong>3,342</strong> sqft |
+                    Active</p>
+                <h5 class="betterer">1405 N Reese Dr, Provo, UT, 84601</h5>
+                <p class="betterer font">MLS ID #1993105, CENTURY 21 WASATCH LIFE REALTY, Rachael Nelson</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://photos.zillowstatic.com/fp/2b084f07fedf1d19ad7fff8f5c13a2ea-p_d.jpg" alt="">
+            <div class="card-body">
+                <h3 class="betterer">$450,000</h3>
+                <p class="betterer"><strong>3</strong> bds | <strong>2</strong> ba | <strong>2,286</strong> sqft |
+                    Active</p>
+                <h5 class="betterer">2194 S Dakota Ave, Provo, UT, 84606</h5>
+                <p class="betterer font">MLS ID #1997884, CENTURY 21 EVEREST, Mike D. Hancock</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://photos.zillowstatic.com/fp/d1add27de9b0d60f83052ef63f46d802-p_d.jpg" alt="">
+            <div class="card-body">
+                <h3 class="betterer">$465,000</h3>
+                <p class="betterer"><strong>3</strong> bds | <strong>2</strong> ba | <strong>1,658</strong> sqft |
+                    Active</p>
+                <h5 class="betterer">1434 E 330 S, Provo, UT, 84606</h5>
+                <p class="betterer font">MLS ID #1997864, RE/MAX ASSOCIATES (UTAH COUNTY), Kirsten Bascom</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3 style="font-size: medium;"><strong>About Zillow's Recommendations</strong></h3>
+        <p>Recommendations are based on your location and search activity, such as the homes you've viewed and saved and the filters you've used. We use this information to bring similar homes to your attention, so you don't miss out.</p>
+    </div>
+</body>
+
+</html>
